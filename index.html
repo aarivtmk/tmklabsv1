@@ -611,7 +611,8 @@
                 response.
               </p>
 
-              <form class='cta-form' method='post' name='contactus'><input type='hidden' name='form-name' value='contactus' />
+              <form class='cta-form' method='post' name='contactus' data-netlify="true" enctype="multipart/form-data">
+                <input type='hidden' name='form-name' value='contactus' />
                 <div>
                   <label for="full-name">Full name</label>
                   <input
